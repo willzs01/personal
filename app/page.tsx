@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
 
 export default function ProfilePage() {
   return (
@@ -31,7 +31,7 @@ function Header() {
           <p className="text-gray-300">Turning complex challenges into elegant, user-friendly digital solutions.</p>
           <ul className='float-right'>
             <li className='hover:-translate-y-2 hover:shadow-lg hover:shadow-indigo-500/20'>
-              <a href='https://www.linkedin.com/in/williams-karina-70b8a7258/'>{<Linkedin size={24} />}linkedin</a>
+              <a href='https://github.com/willzs01'>{<Github size={24} />}Github</a>
             </li>
           </ul>
         </CardContent>
